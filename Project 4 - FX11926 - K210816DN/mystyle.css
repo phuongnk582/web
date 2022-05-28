@@ -1,0 +1,128 @@
+*
+        {
+            box-sizing: border-box;
+        }
+
+        [class*="col-"] 
+        {
+            width: 100%;
+            float: left;
+            padding: 15px;
+        }
+        .body-child
+        {
+            padding-top: 60px;
+            width: 100%;
+            /*position: relative;*/
+        }
+           /*Khi màn hình nhỏ hơn 768px thì ẩn hình nền của Banner*/
+           @media only screen and (max-width: 768px)
+           {
+               div h1 .banner-text
+               {
+                   font-size: 10px;
+               }
+               div h2 .banner-text
+               {
+                   font-size: 5px;
+               }  
+           }
+    /* For all*/
+        .poem
+        {
+            font-style: italic;
+            text-align: center;
+            line-height: 2;
+        }
+       
+        .row::after 
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        div
+        {
+            display: block;
+        }
+        .video 
+        {
+            width: 100%;
+            height: auto;
+        }
+        /*For footer*/        
+        .footer
+        {
+            display: block;
+            margin-top: 0px;
+            background-color: black;
+            background-size: 100% auto;
+            color: whitesmoke;
+        }
+        .wrapper
+        {
+            width: 100%;
+            margin: 0px auto;
+            position: relative;
+        }
+        .footer .footer-widgets
+        {
+            display: block;
+            padding: 25px 0;
+        }
+
+    /*For all - Body Image*/
+        .image-center .img-responsive
+        {
+            margin: 0 auto;
+        }
+        .image
+        {
+            padding: 15px 10px 15px 10px;
+        }
+        .image img
+        {
+            width: 100%;
+        }
+        #main-content h3
+        {
+            padding-left: 30px;
+            padding-top: 40px;
+            margin-top: 0px;
+        }
+        #main-content p
+        {
+            padding-left: 30px;
+        }
+
+        /*Thiết kế cho phần banner*/
+        .banner
+        {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .banner-text
+        {
+            position:absolute;
+            top: 50px;
+            left: 30px;
+            color: white;
+            font-family: 'Allison', cursive;
+        }
+        .banner-img img
+        {
+            width: 100%;
+        }
+    /*Thiết kế cho body images*/
+        #main-content
+        {
+            background-color: #e5e4e2;
+            display: block;
+        }
+        .galery
+        {
+            display: block;
+            padding: 15px 20px 0 20px;
+        }
+

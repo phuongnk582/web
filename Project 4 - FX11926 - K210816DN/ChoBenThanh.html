@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Traveling arround Ho Chi Minh City</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="mystyle.css">       
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="index.html">HOME PAGE</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">NỘI THÀNH
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="NoiThanh.html">TRUNG TÂM THÀNH PHỐ</a></li>
+                            <li><a href="#">NHÀ THỜ ĐỨC BÀ</a></li>
+                            <li><a href="#">DI TÍCH DINH ĐỘC LẬP</a></li>
+                            <li><a href="#">PHỐ TÂY BÙI VIỆN</a></li>
+                            <li><a href="#">NHÀ THỜ TÂN ĐỊNH</a></li>
+                            <li><a href="#">PHỐ ĐI BỘ NGUYỄN HUỆ</a></li>
+                            <li><a href="#">BẢO TÀNG CHỨNG TÍCH CHIẾN TRANH</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">NGOẠI Ô
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">ĐỊA ĐẠO CỦ CHI</a></li>
+                            <li><a href="#">HỒ ĐÁ THỦ ĐỨC</a></li>
+                            <li><a href="#">KHU DU LỊCH THE BCR SÀI GÒN</a></li>
+                            <li><a href="#">TU VIỆN KHÁNH AN</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">KHU VUI CHƠI
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">CÔNG VIÊN VĂN HÓA ĐẦM SEN</a></li>
+                            <li><a href="#">THẢO CẦM VIÊN SÀI GÒN</a></li>
+                            <li><a href="#">KHU DU LỊCH SUỐI TIÊN</a></li>
+                            <li><a href="#">KHU VUI CHƠI GIẢI TRÍ SNOW TOWN</a></li>
+                            <li><a href="#">CHỢ ĐÊM BẾN THÀNH</a></li>
+                            <li><a href="#">PHỐ ĐI BỘ NGUYỄN HUỆ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ẨM THỰC
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">MÓN DÂN GIÃ</a></li>
+                            <li><a href="#">NHÀ HÀNG</a></li>
+                            <li><a href="#">MÓN ĂN 3 MIỀN</a></li> 
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">GIẢI TRÍ
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">NHÀ HÁT LỚN THÀNH PHỐ</a></li>
+                            <li><a href="#">BAR/CLUB - BEERCLUB</a></li>
+                            <li><a href="#">CÀ PHÊ NHẠC SỐNG</a></li> 
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                    
+                </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="body-child container-fluid">
+        <div id="chobenthanh_container">
+            <p">Nội dung chính</p>
+            <ul>
+                <li>
+                    <a href="#I_Dia_chi_cho_Ben_Thanh_Sai_Gon">I. Địa chỉ chợ Bến Thành Sài Gòn</a>
+                </li>
+                <li>
+                    <a href="#II_Nguon_goc_va_xuat_xu_ten_goi">II. Nguồn gốc và xuất xứ tên gọi?</a>
+                </li>
+                <li>
+                    <a href="#III_Cho_Ben_Thanh_co_gi_dep">III. Chợ Bến Thành có gì đẹp ?</a>
+                </li>
+                <li>
+                    <a href="#IV_An_gi_o_cho_Ben_Thanh">IV. Ăn gì ở chợ Bến Thành?</a>
+                </li>
+                <li>
+                    <a href="#V_Cho_Ben_Thanh_ve_dem">V. Chợ Bến Thành về đêm</a>
+                </li>
+                <li>
+                    <a href="#VI_Luu_y_nho_nho">VI. Lưu ý nho nhỏ</a>
+                </li>
+            </ul>
+        </div>
+        <p>
+            <em><strong>Nếu như chợ Đồng Xuân là nét văn hóa của Hà Nội thì chợ Bến Thành chính là một trong nét đặc sắc của Sài Gòn mà 
+            khi nhắc đến ai cũng sẽ nhớ đến đầu tiên. Thật sự sẽ là một điều tiếc nuối lớn khi đặt chân đến đây mà bạn bỏ lỡ chợ Bến Thành.
+            </strong></em>
+        </p>
+        <p style="text-align: center;" class="image-center">
+            <img class="img-responsive" loading="lazy" 
+                title="Chợ Bến Thành quận 1 - biểu tượng của thành phố Hồ Chí Minh" 
+                src="Images/ChoBenThanh/cho-ben-thanh-1.png" 
+                alt="Chợ Bến Thành quận 1 - biểu tượng của thành phố Hồ Chí Minh" width="640" height="437">
+        </p>
+        <p style="text-align: center;">Chợ Bến Thành quận 1 – biểu tượng của thành phố Hồ Chí Minh</p>
+        <p style="text-align: justify;">    
+            <em><strong>Cùng VNTRIP.VN khám phá xem 
+                <a title="khu du lịch gần Sài Gòn" 
+                    href="https://www.vntrip.vn/cam-nang/dia-diem-du-lich-gan-sai-gon-14981" 
+                    target="_blank" 
+                    rel="noopener noreferrer">khu du lịch gần Sài Gòn
+                </a>có những gì thu hút và nổi tiếng nhé!.
+            </strong></em>
+        </p>
+        <h2 style="text-align: justify;">
+            <span id="I_Dia_chi_cho_Ben_Thanh_Sai_Gon">I. Địa chỉ chợ Bến Thành Sài Gòn</span>
+        </h2>
+        <p style="text-align: center;" class="image-center">
+            <img class="img-responsive"loading="lazy"
+                title="Chợ Bến Thành thành phố Hồ Chí Minh từ một góc độ khác" 
+                src="Images/ChoBenThanh/cho-ben-thanh-1-1.png" 
+                alt="Chợ Bến Thành thành phố Hồ Chí Minh từ một góc độ khác" width="640" height="478">
+        </p>
+        <p style="text-align: center;">Chợ Bến Thành thành phố Hồ Chí Minh từ một góc độ khác</p>
+        <p style="text-align: justify;">
+            Chợ Bến Thành nằm ở Cửa Nam – nơi giao cắt giữa các con đường Phan Bội Châu, Phan Chu Trinh, Lê Thánh Tôn và công trường Quách Thị Trang, 
+            phường Bến Nghé, quận 1 và là ngôi chợ lâu đời nhất tại đây. Biểu tượng nổi bật nhất của chợ chính là hình ảnh đồng hồ 
+            ở ngay cửa nam của ngôi chợ tựa như đồng hồ Big Ben ở London.
+        </p>
+        <h2>
+            <span id="II_Nguon_goc_va_xuat_xu_ten_goi">
+                <strong>
+                    II. Nguồn gốc và xuất xứ tên gọi ?
+                </strong>
+            </span>
+        </h2>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+                title="Chợ Bến Thành năm 1943" 
+                src="Images/ChoBenThanh/1943.png" 
+                alt="Chợ Bến Thành năm 1943" width="640" height="495">
+        </p>
+        <p style="text-align: center;">Hình ảnh chợ Bến Thành Sài Gòn năm 1943</p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">Chợ có lịch sử hình thành từ đầu thế kỷ 17, lúc đó chợ nằm gần sông Sài Gòn và là nơi mua bán của các tiểu 
+                thương. Đến thời kỳ kháng chiến chống Pháp, chợ nằm bên bờ sông Bến Nghé, bến này dùng để phục vụ cho khách vãng lai và quân nhân vào thành.
+                Vì vậy, chợ có tên là Chợ Bến Thành.
+            </span>
+        </p>
+        <h2 style="text-align: justify;">
+            <span id="III_Cho_Ben_Thanh_co_gi_dep">
+                <strong> III. Chợ Bến Thành có gì đẹp ?</strong>
+            </span>
+        </h2>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">
+                Với diện tích trên 13.000m2, chợ bán bán chủ yếu các mặt hàng quần áo, vải sơi, giày dép, thời trang, hàng thủ công mỹ nghệ, 
+                thực phẩm tươi sống, trái cây và hoa tươi. Ngoài ra, chợ còn rất phong phú với các quán ăn vặt, món ăn đậm chất các vùng ở miền
+                 Nam.
+            </span>
+        </p>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+                title="Du lịch chợ Bến Thành tp. Hồ Chí Minh" 
+                src="Images/ChoBenThanh/ben-trong-cho-ben-thanh.png" 
+                alt="Du lịch chợ Bến Thành tp. Hồ Chí Minh" width="640" height="426">
+        </p>
+        <p style="text-align: center;">Du lịch chợ Bến Thành tp. Hồ Chí Minh</p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">Len lỏi giữa các gian hàng, 
+                du khách chắc chắn sẽ choáng ngợp với sự đa dạng mặt hàng ở đây. Bạn có thể dễ dàng tìm cho mình những món đồ ưng ý từ những
+                quà lưu niệm bé tí như vòng cổ, hoa tai, ví, khăn,… đến những trang phục truyền thống hay cặp sách,…
+            </span>
+        </p>
+        <p style="text-align: justify;" class="image-center">
+            <img class="img-responsive"loading="lazy"
+            title="Hình chợ bến thành tại khu bán đồ lưu niệm" 
+            src="Images/ChoBenThanh/khu-ban-do-luu-niem.png" 
+            alt="Hình chợ bến thành tại khu bán đồ lưu niệm" width="640" height="426">
+        </p>
+        <p style="text-align: center;">Hình chợ bến thành tại khu bán đồ lưu niệm</p>
+        <h2 style="text-align: justify;">
+            <span id="IV_An_gi_o_cho_Ben_Thanh">
+                <strong>IV. Ăn gì ở chợ Bến Thành?</strong>
+            </span>
+        </h2>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+            title="Khu ăn uống thu hút khách du lịch của chợ Bến Thành" 
+            src="Images/ChoBenThanh/khu-am-thuc.png" 
+            alt="Khu ăn uống thu hút khách du lịch của chợ Bến Thành" 
+            width="640" height="395">
+        </p>
+        <p style="text-align: center;">Khu ăn uống thu hút khách du lịch của chợ Bến Thành</p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">Không quên nhắc đến ẩm thực đa dạng và phong phú của chợ Bến Thành. 
+                Chè Sài Gòn chắc hẳn không còn lạ với người dân khắp các vùng miền, đến với chợ, bạn sẽ choáng ngợp với hàng dài các sạp chè đủ mọi 
+                màu sắc từ màu xanh của cốm, màu vàng của chuối, ngô, màu trắng của nước cốt dừa, màu tím của khoai môn, màu đỏ của sương sa hạt lựu,… 
+                Và đặc biệt, ở cổng số 7 có 1 quán chè hơn 40 năm chuyên về các món chè Nam Bộ.
+            </span>
+        </p>
+        <p class="image-center">
+            <img class="img-responsive" loading="lazy"
+            title="Quán chè hơn 40 năm tại cổng số 7 chợ Bến Thành" 
+            src="Images/ChoBenThanh/che.png" 
+            alt="Quán chè hơn 40 năm tại cổng số 7 chợ Bến Thành" width="640" height="493">
+        </p>
+        <p style="text-align: center;">Quán chè hơn 40 năm tại cổng số 7 chợ Bến Thành (ảnh ST)</p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">
+                Các món ăn chính phải kể đến cơm tấm, cơm sườn, bún mắm, bún riêu, gỏi cuốn, bún thịt nướng, xôi bảy màu. 
+                Các món ăn vặt thì vô vàn như bánh tráng trộn, bánh bèo Huế, các món ốc, bánh bột,…
+            </span>
+        </p>
+        <p class="image-center">
+            <img class="img-responsive" loading="lazy" 
+            title="Món bánh bèo thơm ngon " 
+            src="Images/ChoBenThanh/mon-banh-beo.png" 
+            alt="Món bánh bèo thơm ngon " width="640" height="478">
+        </p>
+        <p style="text-align: center;">Món bánh bèo thơm ngon</p>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+                title="Tham quan chợ Bến Thành thưởng thức đặc sản Gỏi Cuốn " 
+                src="Images/ChoBenThanh/goi-cuon.png" 
+                alt="Tham quan chợ Bến Thành thưởng thức đặc sản Gỏi Cuốn " width="640" height="400">
+        </p>
+        <p style="text-align: center;">Tham quan chợ Bến Thành thưởng thức đặc sản Gỏi Cuốn (Ảnh ST) </p>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+            title="Xôi ngũ sắc hấp dẫn thực khách tại chợ Bến Thành" 
+            src="Images/ChoBenThanh/xoi-ngu-sac.png" 
+            alt="Xôi ngũ sắc hấp dẫn thực khách tại chợ Bến Thành" width="640" height="643">
+        </p>
+        <p style="text-align: center;">
+            Xôi ngũ sắc hấp dẫn thực khách tại chợ Bến Thành (Ảnh ST)
+        </p>
+        <p class="image-center">
+            <img class="img-responsive"loading="lazy"
+            title="Món ốc đa dạng và phong phú tại chợ Bến Thành" 
+            src="Images/ChoBenThanh/oc.png" 
+            alt="Món ốc đa dạng và phong phú tại chợ Bến Thành" width="640" height="416">
+        </p>
+        <p style="text-align: center;">Món ốc đa dạng và phong phú tại chợ Bến Thành</p>
+        <h2 style="text-align: justify;">
+            <span id="V_Cho_Ben_Thanh_ve_dem">
+                <strong> V. Chợ Bến Thành về đêm</strong>
+            </span>
+        </h2>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">“Rực rỡ – Nhộn nhịp” là những gì có thể thấy ở chợ Bến Thành khi trăng lên. 
+                Dường như đây mới là thời điểm “sống thật” của khu chợ này. 
+                Nhiều hoạt động giao thương, nhiều khách du lịch và người dân địa phương tham quan, thưởng thức các món ăn, 
+                sẵn sàng sống với một “Sài Gòn thứ 2” – Sài Gòn về đêm.
+            </span>
+        </p>
+        <p class="image-center">
+            <img class="img-responsive" loading="lazy" title="Chợ Bến Thành về đêm" 
+            src="Images/ChoBenThanh/cho-ben-thanh-ve-dem.png" 
+            alt="Chợ Bến Thành về đêm" width="640" height="379">
+        </p>
+        <p style="text-align: center;">Hình ảnh chợ Bến Thành về đêm </p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">
+                Nếu nhắc đến Sài Gòn là nhắc đến sự náo nhiệt, sống nhanh thì cần phải cảm nhận và hiểu rõ hơn rằng: 
+                cái nhanh của ban ngày là công việc, 
+                sự lo toan cuộc sống và cái nhanh của ban đêm chính là màu sắc của những bữa tiệc.
+            </span>
+        </p>
+        <p class="image-center">
+            <img class="img-responsive" loading="lazy"
+            title="Khu dãy chợ đêm tấp nập của chợ Bến Thành" 
+            src="Images/ChoBenThanh/cho-dem.png" 
+            alt="Khu dãy chợ đêm tấp nập của chợ Bến Thành" width="640" height="454">
+        </p>
+        <p style="text-align: center;">Khu dãy chợ đêm tấp nập của chợ Bến Thành</p>
+        <p class="image-center">
+            <img class="img-responsive" loading="lazy"
+            title="Thịt xiên - món ăn phổ biến tại chợ đêm Bến Thành" 
+            src="Images/ChoBenThanh/thit-xien.png" 
+            alt="Thịt xiên - món ăn phổ biến tại chợ đêm Bến Thành" width="640" height="419">
+        </p>
+        <p style="text-align: center;">Thịt xiên – món ăn phổ biến tại chợ đêm Bến Thành</p>
+        <p class="image-center">
+            <span style="font-weight: 400;">Nếu cảm nhận được trọn vẹn 2 sắc thái đó của Sài Gòn, hẳn bạn đã có 
+                rất nhiều năm tháng tuyệt vời tại đây. 
+            </span>
+        </p>
+        <h2 style="text-align: justify;">
+            <span id="VI_Luu_y_nho_nho"><strong>VI. Lưu ý nho nhỏ</strong>
+            </span>
+        </h2>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">
+                Đường sá Sài Gòn lúc nào cũng tấp nập người xe qua lại, nên bạn hãy chú ý quan sát khi đi qua đường. 
+                Vào những thời điểm đông người hãy cẩn thận túi của mình để tránh bị móc trộm hay cướp giật nhé. 
+            </span>
+        </p>
+        <p style="text-align: justify;">
+            <span style="font-weight: 400;">Dù nhịp điệu của Sài Gòn rất nhanh nhưng đừng vội vã, 
+                hãy đến và cảm nhận từ từ, bắt đầu từ chợ Bến Thành, bắt đầu từ những điều thân thuộc nhất của nơi đây. 
+                Và bạn sẽ thấy vẻ đẹp sâu lắng của Sài Gòn đang ẩn mình chờ bạn tìm kiếm đằng sau những nốt nhạc vội vã kia!
+            </span>
+        </p>
+    </div>
+    <footer class="footer">
+        <!--Begin.wrapper-->
+        <div class="wrapper">
+            <div class="footer-widgets">
+                <div class=""></div>
+                <div class="textwidget">
+                    <p> 
+                        <a href="#">Giới thiệu</a><br>
+                        <a href="#">Hướng dẫn sử dụng</a><br>
+                        <a href="#">Chính sách bảo mật</a><br>
+                        <a href="#">Điều khoản sử dụng</a><br>
+                        <a href="#">Bản quyền ảnh</a><br>
+                        <a href="Help page.html">Liên hệ</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
